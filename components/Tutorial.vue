@@ -4,9 +4,11 @@
     <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
       <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
         <h2 class="text-2xl leading-7 font-semibold">
-          Come find a cute dog!
+          Look at this cute dog!
         </h2>
         <UnsplashImage />
+        <br />
+        <a href="https://twitter.com/jpinzer?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @jpinzer</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
   </div>

@@ -4,6 +4,9 @@
     <p v-else-if="$fetchState.error">An error occurred :(</p>
     <div v-else>
       <img :src="picture.urls.raw" />
+      <p>{{picture.description}}</p>
+      <br/>
+      <p><a :href="picture.user.links.html">{{picture.user.name}}</a> - from <a href="unsplash.com">unsplash.com</a></p>
       <button class="btn btn-blue" @click="$fetch">Refresh</button>
     </div>
   </div>
